@@ -14,8 +14,23 @@ html {
 }
 
 img {
-    width: 175px;
+    height: 250px;
 }
+
+.post {
+    display: grid;
+    border: 2px dashed aqua;
+    /* grid-template-columns: 1fr 1fr; THAT WOULD PUT THE TEXT BESIDE THE IMAGE*/
+    /* justify-items: center; */
+    align-items: center;
+    /* grid-auto-rows: 400px; */
+}
+
+p {
+    text-align: center;
+    margin: 10%;
+}
+
 /* #gallery > img {
     height: 300px;
     width: auto;
